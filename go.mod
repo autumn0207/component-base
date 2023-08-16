@@ -6,7 +6,8 @@ go 1.19
 
 require (
 	github.com/blang/semver v3.5.0+incompatible
-	github.com/go-logr/logr v0.2.0
+	github.com/go-logr/logr v1.2.4
+	github.com/go-logr/zapr v1.2.4
 	github.com/google/go-cmp v0.4.0
 	github.com/moby/term v0.0.0-20200312100748-672ec06f55cd
 	github.com/prometheus/client_golang v1.7.1
@@ -14,8 +15,8 @@ require (
 	github.com/prometheus/common v0.10.0
 	github.com/prometheus/procfs v0.1.3
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.4.0
-	go.uber.org/zap v1.10.0
+	github.com/stretchr/testify v1.8.0
+	go.uber.org/zap v1.24.0
 	k8s.io/apimachinery v0.19.16
 	k8s.io/client-go v0.19.16
 	k8s.io/klog/v2 v2.2.0
@@ -37,18 +38,19 @@ require (
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/sirupsen/logrus v1.6.0 // indirect
-	go.uber.org/atomic v1.4.0 // indirect
-	go.uber.org/multierr v1.1.0 // indirect
+	go.uber.org/atomic v1.7.0 // indirect
+	go.uber.org/multierr v1.6.0 // indirect
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
-	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b // indirect
+	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4 // indirect
 	golang.org/x/oauth2 v0.0.0-20191202225959-858c2ad4c8b6 // indirect
-	golang.org/x/sys v0.0.0-20201112073958-5cba982894dd // indirect
+	golang.org/x/sys v0.0.0-20210510120138-977fb7262007 // indirect
 	golang.org/x/text v0.3.3 // indirect
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0 // indirect
 	google.golang.org/appengine v1.6.5 // indirect
 	google.golang.org/protobuf v1.24.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/api v0.19.16 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.1.2 // indirect
 	sigs.k8s.io/yaml v1.2.0 // indirect
