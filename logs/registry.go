@@ -21,7 +21,7 @@ import (
 	"sort"
 
 	"github.com/go-logr/logr"
-	json "k8s.io/component-base/logs/json"
+	// json "k8s.io/component-base/logs/json"
 )
 
 const (
@@ -102,5 +102,5 @@ func (lfr *LogFormatRegistry) Freeze() {
 func init() {
 	// Text format is default klog format
 	logRegistry.Register(defaultLogFormat, nil)
-	logRegistry.Register(jsonLogFormat, json.JSONLogger)
+	// logRegistry.Register(jsonLogFormat, json.JSONLogger)
 }
